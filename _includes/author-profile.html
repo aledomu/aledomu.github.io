@@ -79,6 +79,9 @@
       {% if author.gitlab %}
         <li><a href="https://gitlab.com/{{ author.gitlab }}"><i class="fab fa-fw fa-gitlab icon-pad-right" aria-hidden="true"></i>GitLab</a></li>
       {% endif %}
+      {% if site.author.gitlab-gnome %}
+        <li><a href="http://gitlab.gnome.org/{{ site.author.gitlab-gnome }}"><i class="fab fa-fw fa-gitlab icon-pad-right" aria-hidden="true"></i> GNOME (GitLab)</a></li>
+      {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      
