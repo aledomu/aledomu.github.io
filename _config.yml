@@ -46,8 +46,10 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
+feed:
   path                   : # blank (default) uses feed.xml
+  categories             :
+    - gnome
 
 # SEO Related
 google_site_verification :
