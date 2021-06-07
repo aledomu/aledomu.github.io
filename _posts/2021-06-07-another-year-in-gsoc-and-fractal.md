@@ -1,6 +1,6 @@
 ---
 title: "Another year in GSoC and Fractal(-next)"
-date: 2021-06-07
+date: 2021-06-07 19:00:00
 category: "gnome"
 ---
 This year I applied for Google Summer of Code again and chose Fractal to work on
