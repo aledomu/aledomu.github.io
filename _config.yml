@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Technical Credit"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Alejandro Domínguez"
-description              : &description "IT Blog"
-url                      : https://aledomu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Personal blog"
+url                      : https://aledomu.name # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aledomu/aledomu.github.io"
 
@@ -25,16 +25,16 @@ author:
   name             : "Alejandro Domínguez"
   pronouns         : "he/him"
   bio              : "Probably nitpicking while doing the wrong thing where it matters"
-  location         : "Spain"
-  employer         : 
+  location         :
+  employer         :
   uri              : # URL
-  email            : "adomu@net-c.com" 
+  email            :
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : # Citations search URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0009-0005-0017-6975" # URL
   semantic         : # URL
   pubmed           : # Search URL
   researchgate     : # URL
@@ -46,7 +46,7 @@ author:
   dribbble         : # Username
   github           : "aledomu"
   gitlab           : "aledomu"
-  gitlab-gnome     : "aledomu"
+  gitlab-gnome     : # Username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -104,7 +104,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master" # "master", "gh-pages"
+  branch                 : "main" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
